@@ -42,7 +42,7 @@
     [bombillaOf setImage:bombilla];
     
     AudioServicesPlaySystemSound(Sound2ID);
-    AudioServicesDisposeSystemSoundID(SoundID);
+    
     
     
 }
@@ -52,7 +52,7 @@
     [bombillaOf setImage:bombilla1];
     
     AudioServicesPlaySystemSound(SoundID);
-    AudioServicesDisposeSystemSoundID(Sound2ID);
+   
     
 }
 
@@ -61,7 +61,7 @@
     [bombillaOf setImage:bombilla2];
     
     AudioServicesPlaySystemSound(SoundID);
-    AudioServicesDisposeSystemSoundID(Sound2ID);
+   
    
     
 }
